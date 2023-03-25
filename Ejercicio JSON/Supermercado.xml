@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <element array="true">
+    <Lidl>
+      <direccion>Avda.Pozo de la Nieve</direccion>
+      <población>Caceres</población>
+      <cp>10004</cp>
+      <geolocalizacion>
+        <latitud>19 366 52</latitud>
+        <longitud>20 535 30</longitud>
+      </geolocalizacion>
+      <Pizza>
+        <tipo>queso</tipo>
+        <modelos>
+          <nombre>Pizza 4 quesos </nombre>
+          <precio>2,15</precio>
+          <oferta boolean="true">true</oferta>
+          <fechaInicioOferta null="true"/>
+          <fechaFinOferta null="true"/>
+          <stock>62</stock>
+        </modelos>
+        <modelos>
+          <nombre>Pizza Jamon Queso</nombre>
+          <precio>4,19</precio>
+          <oferta boolean="true">false</oferta>
+          <fechaInicioOferta>05/10/17</fechaInicioOferta>
+          <fechaFinOferta>16/10/17</fechaFinOferta>
+          <stock>27</stock>
+        </modelos>
+      </Pizza>
+      <Pizza>
+        <tipo>Peperoni</tipo>
+        <modelos>
+          <nombre>Pizza Pepperoni 445g</nombre>
+          <precio>3,15</precio>
+          <oferta boolean="true">false</oferta>
+          <fechaInicioOferta null="true"/>
+          <fechaFinOferta null="true"/>
+          <stock>20</stock>
+        </modelos>
+        <modelos>
+          <nombre>Pizza Peperoni La Crianza</nombre>
+          <precio>7,65</precio>
+          <oferta boolean="true">false</oferta>
+          <fechaInicioOferta null="true"/>
+          <fechaFinOferta null="true"/>
+          <stock>5</stock>
+        </modelos>
+      </Pizza>
+      <Pizza>
+        <tipo>Pollo</tipo>
+        <modelos>
+          <nombre>Pizza fresca pollo asado</nombre>
+          <precio>1,05</precio>
+          <oferta boolean="true">false</oferta>
+          <fechaInicioOferta null="true"/>
+          <fechaFinOferta null="true"/>
+          <stock>15</stock>
+        </modelos>
+        <modelos>
+          <nombre>Pizza pollo Halal</nombre>
+          <precio>2,95</precio>
+          <oferta boolean="true">false</oferta>
+          <fechaInicioOferta null="true"/>
+          <fechaFinOferta null="true"/>
+          <stock>9</stock>
+        </modelos>
+      </Pizza>
+    </Lidl>
+    <carrefour>
+      <direccion>Av de las Arenas</direccion>
+      <población>Caceres</población>
+      <cp>10005</cp>
+      <geolocalizacion>
+        <latitud>39 471 0627</latitud>
+        <longitud>18 425 91 27</longitud>
+      </geolocalizacion>
+      <Pizza>
+        <tipo>queso</tipo>
+        <modelos>
+          <nombre>Pizza 4 quesos </nombre>
+          <precio>3,29</precio>
+          <oferta boolean="true">false</oferta>
+          <fechaInicioOferta null="true"/>
+          <fechaFinOferta null="true"/>
+          <stock>60</stock>
+        </modelos>
+        <modelos>
+          <nombre>Pizza jamon y queso</nombre>
+          <precio>3,20</precio>
+          <oferta boolean="true">true</oferta>
+          <fechaInicioOferta null="true"/>
+          <fechaFinOferta null="true"/>
+          <stock>35</stock>
+        </modelos>
+      </Pizza>
+      <Pizza>
+        <tipo>peperoni</tipo>
+        <modelos array="true">
+          <nombre>Pizza de peperoni ahumado</nombre>
+          <precio>2.15</precio>
+          <oferta boolean="true">false</oferta>
+          <fechaInicioOferta>02/01/17</fechaInicioOferta>
+          <fechaFinOferta>21/01/17</fechaFinOferta>
+          <stock>20</stock>
+        </modelos>
+      </Pizza>
+    </carrefour>
+  </element>
+</root>
